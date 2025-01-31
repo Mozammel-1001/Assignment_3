@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=ADLaM+Display&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Sora:wght@100..800&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/1f03694f4b.js" crossorigin="anonymous"></script>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>Assignment 3</title>
+    <style>
+        .font-ADlam-display {
+            font-family: "ADLaM Display", serif;
+            font-weight: 400;
+            font-style: normal;
+        }
+
+        .font-sora {
+            font-family: "Sora", serif;
+            font-optical-sizing: auto;
+            font-weight: 400;
+            font-style: normal;
+        }
+    </style>
+</head>
+
+<body class="font-sora">
+    <header>
+        <nav
+            class="flex justify-between items-center bg-[#FFF9F4] px-4 py-3 lg:px-36 lg:py-7 text-xl border border-solid border-[#111111] lg:border-0">
+            <div class="flex items-center">
+                <div class="mr-3"><a href=""><img src="c1-assets/logo-header.png" alt="Header Logo"></a></div>
+                <p class="hidden absolute lg:block lg:static"><a href="">Browse<span
+                            class="text-[#FFDC26]">4</span>Pets</a></p>
+            </div>
+            <div class="hidden absolute lg:block lg:static">
+                <ul class="flex">
+                    <li><a href="" class="mr-8">Find a pet</a></li>
+                    <li><a href="" class="mr-8">Breeds</a></li>
+                    <li><a href="">Contact us</a></li>
+                </ul>
+            </div>
+            <div class="hidden absolute lg:flex lg:static">
+                <button class="mr-4"><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
+                        stroke-width="1.5" stroke="currentColor" class="size-6">
+                        <path stroke-linecap="round" stroke-linejoin="round"
+                            d="M14.857 17.082a23.848 23.848 0 0 0 5.454-1.31A8.967 8.967 0 0 1 18 9.75V9A6 6 0 0 0 6 9v.75a8.967 8.967 0 0 1-2.312 6.022c1.733.64 3.56 1.085 5.455 1.31m5.714 0a24.255 24.255 0 0 1-5.714 0m5.714 0a3 3 0 1 1-5.714 0" />
+                    </svg>
+                </button>
+                <button class="mr-4"><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
+                        stroke-width="1.5" stroke="currentColor" class="size-6">
+                        <path stroke-linecap="round" stroke-linejoin="round"
+                            d="m21 21-5.197-5.197m0 0A7.5 7.5 0 1 0 5.196 5.196a7.5 7.5 0 0 0 10.607 10.607Z" />
+                    </svg>
+                </button>
+                <button class="mr-4 px-8 py-3 border border-solid rounded-lg border-[#FFDC26]"><a
+                        href="">Login</a></button>
+                <button class="px-8 py-3 border-0 rounded-lg bg-[#FFDC26]"><a href="">Register</a></button>
+            </div>
+            <div class="lg:hidden lg:absolute">
+                <button class="focus:outline-none peer"><i class="fa-solid fa-bars text-3xl"></i></button>
+                <ul
+                    class="text-justify hidden absolute peer-focus:block z-20 right-3 top-12 p-3 bg-[#FFF9F4] rounded-sm shadow-lg">
+                    <li><a href=""><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
+                                stroke-width="1.5" stroke="currentColor" class="size-6">
+                                <path stroke-linecap="round" stroke-linejoin="round"
+                                    d="M14.857 17.082a23.848 23.848 0 0 0 5.454-1.31A8.967 8.967 0 0 1 18 9.75V9A6 6 0 0 0 6 9v.75a8.967 8.967 0 0 1-2.312 6.022c1.733.64 3.56 1.085 5.455 1.31m5.714 0a24.255 24.255 0 0 1-5.714 0m5.714 0a3 3 0 1 1-5.714 0" />
+                            </svg></a>
+                    </li>
+                    <li><a href=""><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
+                                stroke-width="1.5" stroke="currentColor" class="size-6">
+                                <path stroke-linecap="round" stroke-linejoin="round"
+                                    d="m21 21-5.197-5.197m0 0A7.5 7.5 0 1 0 5.196 5.196a7.5 7.5 0 0 0 10.607 10.607Z" />
+                            </svg></a>
+                    </li>
+                    <li><a href="">Find a pet</a></li>
+                    <li><a href="">Breeds</a></li>
+                    <li><a href="">Contact us</a></li>
+                    <li><a href="">Login</a></li>
+                    <li><a href="">Register</a></li>
+                </ul>
+            </div>
+        </nav>
+        <div class="px-4 py-3 lg:px-36 lg:py-7 relative">
+            <div class="relative z-10">
+                <h2 class="font-ADlam-display text-4xl lg:text-6xl lg:max-w-2xl mt-8 lg:mt-24 mb-4">Pamper Your Pet,
+                    Because They Deserve the
+                    Best</h2>
+                <p class="lg:max-w-screen-sm lg:text-sm text-[#111111] opacity-70 mb-3 lg:mb-6">Discover a world of
+                    treats, toys, and
+                    essentials handpicked for your furry friends. Shop now and make tails wag with joy!</p>
+                <a href=""> <button class="px-8 py-3 border-0 rounded-lg bg-[#FFDC26]">Find a pet</button> </a>
+            </div>
+            <div class="absolute lg:top-[60%] top-[85%]">
+                <img src="c1-assets/cat-big.png" alt="Cat" class="w-full">
+            </div>
+        </div>
+    </header>
+    <main>
+
+    </main>
+    <footer>
+
+    </footer>
+</body>
+
+</html>
